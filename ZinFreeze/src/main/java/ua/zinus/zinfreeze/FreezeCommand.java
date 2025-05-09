@@ -53,7 +53,7 @@ public class FreezeCommand implements TabExecutor {
 
             ZinFreeze.getInstance().players_check.remove(target);
 
-            target.sendTitle("&#64FF31В&#61F82Eа&#5DF22Aс &#57E524р&#53DE21а&#50D71Dз&#4DD11Aм&#49CA17о&#46C414р&#43BD10о&#3FB60Dз&#3CB00Aи&#39A907л&#35A303и&#329C00!", ChatColor.GREEN + "&#64FF31П&#60F72Dр&#5CEF29и&#58E625я&#53DE21т&#4FD61Dн&#4BCE19о&#47C514й &#3FB50Cи&#3AAD08г&#36A404р&#329C00ы", 30, 25, 30);
+            target.sendTitle("&#64FF31В&#61F82Eа&#5DF22Aс &#57E524р&#53DE21а&#50D71Dз&#4DD11Aм&#49CA17о&#46C414р&#43BD10о&#3FB60Dз&#3CB00Aи&#39A907л&#35A303и&#329C00!", "&#64FF31П&#60F72Dр&#5CEF29и&#58E625я&#53DE21т&#4FD61Dн&#4BCE19о&#47C514й &#3FB50Cи&#3AAD08г&#36A404р&#329C00ы", 30, 25, 30);
             return true;
         }
         return false;
