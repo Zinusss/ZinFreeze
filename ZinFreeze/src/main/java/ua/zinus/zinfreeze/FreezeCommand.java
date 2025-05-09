@@ -25,7 +25,7 @@ public class FreezeCommand implements TabExecutor {
         Player target = Bukkit.getPlayer(args[0]);
 
         if (target == null) {
-            sender.sendMessage("&4⚠ Игрок не найден!");
+            sender.sendMessage(color("&4⚠ Игрок не найден!"));
             return true;
         }
 
@@ -35,14 +35,14 @@ public class FreezeCommand implements TabExecutor {
 
         if (args[1].equalsIgnoreCase("start")){
             if (ZinFreeze.getInstance().players_check.contains(target)) {
-                target.sendMessage("&4⚠ Этот игрок уже замороженный!");
+                target.sendMessage(color("&4⚠ Этот игрок уже замороженный!"));
                 return true;
             }
 
             ZinFreeze.getInstance().players_check.add(target);
 
             target.sendTitle(color("&#FF0000⚠ &#F80000В&#F50101а&#F20101с &#EB0101з&#E80101а&#E40202м&#E10202о&#DE0202р&#DA0202о&#D70202з&#D40303и&#D00303л &#CA0303а&#C70303д&#C30303м&#C00404и&#BD0404н&#B90404и&#B60404с&#B30404т&#AF0505р&#AC0505а&#A90505т&#A50505о&#A20505р&#9F0606! &#980606⚠"), color("&#FF0000И&#F90000н&#F20101ф&#EC0101о&#E50202р&#DF0202м&#D80202а&#D20303ц&#CC0303и&#C50303я &#B80404в &#AB0505ч&#A50505а&#9E0606т&#980606е"), 30, 25, 30);
-            target.teleport( playersender.getLocation());
+            target.teleport(playersender.getLocation());
             return true;
         }
         else if (args[1].equalsIgnoreCase("stop")) {
@@ -66,7 +66,7 @@ public class FreezeCommand implements TabExecutor {
                     "Ник игрока"
             );
         }
-        if (args.length == 1){
+        if (args.length == 2){
             return List.of(
                     "start",
                     "stop"
