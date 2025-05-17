@@ -1,6 +1,0 @@
-/build/
-/gradle/wrapper/
-*.gradle
-*.properties
-*.bat
-gradlew
