@@ -1,0 +1,13 @@
+titles: # Support &(0-9, a-f), &#ffff colors
+  startFreeze: "&4You have been frozen by an administrator"
+  startFreezeSubtitle: "&4Information in the chat"
+  stopFreeze: "&aFreezing is over"
+  stopFreezeSubtitle: "&aEnjoy your game"
+messages:
+  playernotFound: "&4⚠ Player not found!" # When the system could not find the player
+  notPlayer: "&4⚠ You are not a player!" # The command is not executed on behalf of the player
+  playerAlreadyFrozen: "&4⚠ This player is already frozen!" # The player has already been frozen
+  playernotFrozen: "&4⚠ This player is not frozen!" # On request, unfreezes a non-frozen player
+  playernotCommand: "&4⚠ You cannot use commands during freezing"
+  playernotDamage: "&4⚠ You cannot hit players while frozen"
+  nothitPlayer: "&4⚠ You cannot beat this player while he is frozen by the administrator!"

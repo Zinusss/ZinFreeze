@@ -1,0 +1,14 @@
+name: ZinFreeze
+version: '1.2'
+main: ua.zinus.zinfreeze.ZinFreeze
+api-version: '1.16'
+commands:
+  freeze:
+    aliases:
+      - fr
+      - check
+    usage: /freeze [name] [start/stop]
+    description: Команда что бы заморозить игрока
+    permission: freeze.use
+    permission-message: У вас нету прав для использования этой команды
+    

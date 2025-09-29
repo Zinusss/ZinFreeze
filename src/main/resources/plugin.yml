@@ -1,0 +1,15 @@
+name: ZinFreeze
+version: '${version}'
+main: ua.zinus.zinfreeze.ZinFreeze
+api-version: '1.16'
+
+commands:
+  freeze:
+    aliases:
+      - fr
+      - check
+    usage: /freeze [name] [start/stop]
+    description: The command to freeze the player
+    permission: freeze.use
+    permission-message: You do not have permission to use this command
+    
