@@ -24,7 +24,7 @@ It allows administrators and moderators to **freeze** and **unfreeze** players, 
 
 | Command | Description |
 |---|---|
-|/freeze [start | stop]| Freeze or unfreeze a player |
+|`/freeze [start | stop]`|`Freeze or unfreeze a player`|
 
 **Permission Node**:  
 - `freeze.use` — required to use the freeze/unfreeze command  
