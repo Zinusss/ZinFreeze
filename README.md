@@ -3,5 +3,8 @@ A plugin for Minecraft servers based on the Paper core and its forks, created fo
 
 Command:
   /freeze [start | stop] - Start or end player freeze.
+
+---------------------------------------------
+
 Permission:
  freeze.use - The permission to use the command to freeze/unfreeze a player.
